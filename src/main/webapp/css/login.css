@@ -1,0 +1,72 @@
+.gradient-diagonal {
+    /* fallback for old browsers */
+    background: #fccb90;
+
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: -webkit-linear-gradient(to bottom right, #ee7724, #d8363a, #dd3675, #b44593); */
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: linear-gradient(to bottom right, #ee7724, #d8363a, #dd3675, #b44593); */
+
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom right, #ff0000, #0000ff);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom right, #ff0000, #0000ff);
+}
+
+.gradient-linear {
+    /* fallback for old browsers */
+    background: #fccb90;
+
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: -webkit-linear-gradient(to bottom right, #ee7724, #d8363a, #dd3675, #b44593); */
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: linear-gradient(to bottom right, #ee7724, #d8363a, #dd3675, #b44593); */
+
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ff0000, #0000ff);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ff0000, #0000ff);
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+@media (min-width: 769px) {
+    .gradient-diagonal {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
+
+@media (max-width: 1440px) {
+    #mdb-footer {
+        padding-left: 0;
+    }
+}
+
+#mdb-footer, #mdb-footer div{
+    background-color: hsl(216, 25%, 95.1%);
+}
+
+[data-mdb-theme="dark"] #mdb-footer,
+[data-mdb-theme="dark"] #mdb-footer div {
+    background-color: hsl(0, 0%, 10%)  !important
+}
+
+#mdb-footer .copyright {
+    background-color: hsl(216, 25%, 90%) !important;
+}
+
+[data-mdb-theme="dark"] #mdb-footer .copyright {
+    background-color: hsl(0, 0%, 0%) !important;
+}
